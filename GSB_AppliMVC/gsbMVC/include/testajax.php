@@ -11,7 +11,7 @@ foreach ($lesLignes as $key) {
 	
 	$nom = $key['nom'];
 
-	echo "<option>$nom</option>";
+	echo "<option>".$nom."</option>";
 }
 
 
